@@ -19,6 +19,21 @@ public class CompareNumbers {
 		System.out.print("Enter third integer: ");
 		thirdInt = input.nextInt();
 		
+		
+		/* The program has some redundant code that starts here. You should first only compare the numbers without 
+		any print statements. An easier algorithm would be: 
+		int smallest = number1;
+		if(number2 < smallest) {
+			smallest = number2;
+		}
+		
+		if (number3 < smallest) {
+			smallest = number3;
+		}
+		
+		Then you can calculate the sum, product, average and then print the results.
+		*/
+		
 		if ((firstInt > secondInt) && (firstInt > thirdInt)) {
 			
 			if (secondInt > thirdInt) {
